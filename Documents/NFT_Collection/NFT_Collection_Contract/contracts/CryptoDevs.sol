@@ -48,7 +48,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable  {
         whitelist = IWhitelist(whitelistContract);
     }
 
-    // @dev startPresale starts a presale for the whitelisted addresses
+    // @dev startPresale starts a presale for the whitelisted addresses in contract
     function startPresale() public onlyOwner {
         presaleStarted = true;
 
