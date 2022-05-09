@@ -372,7 +372,7 @@ export default function Home() {
 
       <div>
         <footer>
-          Made with &#10084; by CryptoDevs DHC (c) 2022
+          Made with &#10084; by CryptoDevs DHC-v2 (c) 2022
         </footer>
       </div>
     
