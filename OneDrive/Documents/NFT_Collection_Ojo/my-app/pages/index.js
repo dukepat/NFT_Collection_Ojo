@@ -367,15 +367,13 @@ export default function Home() {
           {renderBody()}
           </div>
         </div>
-        <img className={styles.image} src="/cryptodevs/0.svg" />
+           <div>
+              <img className={styles.image} src="/cryptodevs/0.svg" />
+          </div>
       </div>
-
-      <div>
         <footer>
-          Made with &#10084; by CryptoDevs DHC-v3 (c) 2022
+          Made with &#10084; by CryptoDevs DHC-v4 (c) 2022
         </footer>
-      </div>
-    
     </div>
   );
 }
