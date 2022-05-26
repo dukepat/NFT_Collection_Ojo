@@ -277,7 +277,7 @@ export default function Home() {
     if (loading) {
       return (
         <div className={styles.description}>
-          Loading...
+          <button className={styles.button}> Loading... </button>
         </div>
       )
     }
